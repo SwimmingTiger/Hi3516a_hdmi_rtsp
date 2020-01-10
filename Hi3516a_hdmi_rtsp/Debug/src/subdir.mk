@@ -28,7 +28,7 @@ CPP_DEPS += \
 ./src/main.d 
 
 starrtc_include=/root/starrtc_libs/jni
-ffmpeg_include=/root/ffmpeg-build
+ffmpeg_include=/opt/ffmpeg-build
 # Each subdirectory must supply rules for building sources it contributes
 src/%.o: ../src/%.cpp
 	@echo 'Building file: $<'

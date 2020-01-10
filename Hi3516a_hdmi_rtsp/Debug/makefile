@@ -42,7 +42,7 @@ endif
 all: Hi3516a_hdmi_rtsp
 
 starrtc_so=/root/starrtc_libs/jni
-ffmpeg_libs=/root/ffmpeg-build
+ffmpeg_libs=/opt/ffmpeg-build
 # Tool invocations
 Hi3516a_hdmi_rtsp: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
